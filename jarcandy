@@ -1,0 +1,20 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+    int N=10,k=5;
+    int number;
+    cout<<"Enter the number of candies you need";
+    cin>>number;
+    if(number>=1 && number<=5)
+    {
+    cout<<"No of candies sold"<<number;
+    cout<<"\nNo of candies left"<<N-number;
+    }
+else
+{
+cout<<"Invalid";
+cout<<"\nNumber of candies"<<number;
+}
+return 0;
+}
