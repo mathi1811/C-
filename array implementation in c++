@@ -1,0 +1,19 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+    int n;
+    cout<<"Enter the size of the array";
+    cin>>n;
+    int array[n],i;
+    cout<<"Enter the elements in an array";
+    for(i=1;i<=n;i++)
+    {
+        cin>>array[i];
+    }
+    for(i=1;i<=n;i++)
+    {
+        cout<<"array elemnts are:"<<array[i]<<endl;
+    }
+    return 0;
+}
