@@ -49,14 +49,14 @@ int main()
     {
         case 1:
         {
-        cout<<"enter value:";
+        cout<<"enter value to be pushed:";
         cin>>val;
         push(val);
         break;
         }
         case 2:
         {
-            cout<<"Enter value:";
+            cout<<"Enter value to be popped:";
             cin>>val;
             pop(val);
             break;
